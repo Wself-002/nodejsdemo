@@ -1,4 +1,4 @@
-var http = require('http')
+﻿var http = require('http')
 var server = http.createServer()
 server.on('request',function(request,response){
 	console.log('接收到客户端请求')
